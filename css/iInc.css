@@ -1,0 +1,172 @@
+.iInc {
+  width: 100%;
+  height: 355px;
+  margin-top: 20px;
+  .iInc-center {
+    max-width: 1500px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #e5123d;
+    border-radius: 8px;
+    .title {
+      width: 100%;
+      h3 {
+        font-family: var(--font-family);
+        color: aliceblue;
+        font-weight: 100;
+        padding: 20px 20px 0 0;
+      }
+    }
+    .swiper {
+      width: 100%;
+      height: auto;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 3px 0 3px;
+      gap: 20px;
+      .inc-item {
+        width: fit-content;
+        height: 100%;
+        margin: 10px 10px 0 0;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        .inc-item-top {
+          img {
+            width: 116px;
+            height: 14px;
+          }
+        }
+        .inc-item-bottom {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-direction: row;
+          gap: 20px;
+
+          .i-i-b-right {
+            img {
+              width: 200px;
+              height: 200px;
+              margin-top: 15px;
+            }
+          }
+          .i-i-b-left {
+          
+            h4 {
+              font-family: var(--font-family);
+              font-weight: 100;
+              text-align: right;
+              font-size: 14px;
+              margin-top: 30px;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              box-orient: vertical;
+              -webkit-line-clamp: 2;
+              line-clamp: 2;
+              overflow: hidden;
+            }
+            .info {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              margin-top: 15px;
+              p {
+                font-family: var(--font-family);
+                font-weight: 100;
+                font-size: 12px;
+              }
+            }
+
+            .price-new {
+              width: 100%;
+              display: flex;
+              justify-content: space-between;
+              padding: 0 5px;
+              margin-top: 15px;
+
+              .price-right {
+                font-family: var(--font-family);
+                background-color: crimson;
+                border-radius: 20px;
+                padding: 0 5px;
+                line-height: 25px;
+                color: whitesmoke;
+                font-size: 13px;
+              }
+              .price-left {
+                display: flex;
+                flex-flow: row-reverse;
+                align-items: center;
+                font-family: var(--font-family);
+                column-gap: 3px;
+                img {
+                  width: 16px;
+                  height: 16px;
+                }
+              }
+            }
+
+            .price-old {
+              display: flex;
+              justify-content: end;
+              align-items: center;
+              margin-top: 10px;
+              padding-left: 20px;
+              p {
+                width: 100%;
+                font-family: var(--font-family);
+                text-align: left;
+                font-size: 16px;
+                padding: 0 5px;
+                text-decoration: line-through;
+                color: rgb(179, 177, 177);
+              }
+            }
+
+            .clock {
+              width: 100%;
+              display: flex;
+              flex-flow: row-reverse wrap;
+              justify-content: end;
+              align-items: center;
+              margin-top: 10px;
+              .hours,
+              .minutes,
+              .seconds {
+                width: fit-content;
+                padding: 0 5px;
+                border-radius: 5px;
+                font-size: 14px;
+                font-family: var(--font-family);
+                color: #e5123d;
+              }
+              .colon {
+                color: crimson;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.clwash{
+  width: 655px !important;
+}

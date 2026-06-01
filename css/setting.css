@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+@font-face {
+  font-family: yekan;
+  src: url(../font/Yekan.ttf);
+}
+
+:root {
+  --font-family: yekan;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  background-color: whitesmoke !important;
+  border-radius: 50%;
+  border: 1px solid lightgray !important;
+  outline: none;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 14px !important;
+  color: gray !important;
+}
+.swiper-navigation-icon {
+  width: 8px !important;
+  path {
+    fill: #2b2b2b;
+  }
+}
+.swiper-button-disabled {
+  opacity: 0 !important;
+}
+
+.slider .swiper.mySlider .swiper-pagination-bullet {
+  width: 5px;
+  height: 5px;
+  background-color: #2b2b2b;
+  transition: 300ms;
+}
+
+.slider .swiper.mySlider .swiper-pagination-bullet-active {
+  width: 20px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: whitesmoke;
+}
+
+.border-left {
+  border-left: 1px solid #f0f0f1;
+}
+
+.border-top {
+  border-top: 1px solid #f0f0f1;
+}
+
+body::-webkit-scrollbar {
+  background-color: #f0f0f1;
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #c0c2c5;
+}

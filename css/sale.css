@@ -1,0 +1,131 @@
+.sale {
+  width: 100%;
+  margin-top: 20px;
+}
+.sale-center {
+  max-width: 1330px;
+  width: 95%;
+  margin: 0 auto;
+  border: 1px solid lightgray;
+  border-radius: 16px;
+  background-color: white;
+  padding: 0; 
+  overflow: hidden; 
+}
+
+.stitle h2 {
+  font-family: var(--font-family);
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: 100;
+  i{
+    color: red;
+  }
+}
+
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0;
+}
+.row {
+  border-top: none !important;
+}
+
+.row.border-top-row {
+  border-top: 1px solid #e0e0e0 !important;
+}
+
+.sale-item {
+  flex: 0 0 calc(100% / 6 - 10px);
+  padding: 0 10px 30px 10px;
+  text-align: center;
+  border-left: 1px solid #e0e0e0;
+  border-top: none;
+}
+
+.sale-item:last-child {
+  border-left: none;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.img img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  display: block;
+}
+
+.price {
+  width: 100%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.price-right {
+  font-family: var(--font-family);
+  background-color: crimson;
+  border-radius: 20px;
+  padding: 2px 8px;
+  font-weight: 100;
+
+  line-height: 25px;
+  color: whitesmoke;
+  font-size: 13px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.price-left {
+  display: flex;
+  flex-flow: row-reverse;
+  align-items: center;
+  font-family: var(--font-family);
+  column-gap: 3px;
+  font-size: 16px;
+  font-weight: 100;
+
+  font-weight: bold;
+}
+
+.price-left img {
+  width: 16px;
+  height: 16px;
+}
+
+.old-price {
+  width: 100%;
+  font-family: var(--font-family);
+  text-align: left;
+  font-weight: 100;
+
+  font-size: 14px;
+  padding: 0 5px;
+  text-decoration: line-through;
+  color: rgb(179, 177, 177);
+  margin-top: 5px;
+}
+
+.special {
+  color: rgb(179, 177, 177);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 100;
+
+  width: 100%;
+  text-align: center;
+}

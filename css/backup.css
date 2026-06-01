@@ -1,0 +1,86 @@
+.btext {
+  margin: 150px auto;
+  height: 390px;
+  width: 400px;
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-radius: 8px;
+  .blogo {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    img {
+      width: 162px;
+      height: 25px;
+      margin: 10px auto;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+      span {
+        font-size: 20px;
+      }
+    }
+  }
+  .binfo {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-flow: column;
+    gap: 20px;
+    h4,
+    h3 {
+      font-family: var(--font-family);
+      font-weight: 300;
+    }
+    h4 {
+      color: gray;
+    }
+
+    [type="text"] {
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+      border: 1px solid lightgray;
+      border-radius: 8px;
+      height: 50px;
+      width: 100%;
+      margin-right: 15px;
+      margin-top: 12px;
+      outline: none;
+      padding-right: 15px;
+      &::placeholder {
+        color: gray;
+        font-family: var(--font-family);
+        text-align: right;
+      }
+    }
+
+    .confirm {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      background-color: crimson;
+      border-radius: 8px;
+      color: white;
+      font-family: var(--font-family);
+      font-size: 16px;
+      font-weight: 300;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+  }
+
+  .brule {
+    color: gray;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: var(--font-family);
+    span {
+      color: #009ccd;
+    }
+  }
+}

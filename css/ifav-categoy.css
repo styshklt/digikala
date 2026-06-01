@@ -1,0 +1,55 @@
+.ifav-category {
+  width: 100%;
+  height: 170px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  .ifav-category-center {
+    max-width: 1500;
+    height: 100%;
+    margin: 0 auto;
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      width: fit-content !important;
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-right: 30px;
+      .myfav-cover {
+        width: 120px;
+        height: 100%;
+        .myfav-cover-item {
+          width: fit-content;
+          margin: 0 auto;
+          transition: 400ms;
+          img {
+            width: 90px;
+            height: 90px;
+            margin-bottom: 10px;
+            padding-top: 10px;
+          }
+          h4 {
+            font-family: var(--font-family);
+            font-size: 14px;
+            font-weight: 100;
+          }
+        }
+        &:hover{
+            background-color: lightgray;
+            border-radius: 5px;
+        }
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
